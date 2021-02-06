@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    height: 55px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF6F91;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 500px; 
+    background-color: white;
+    margin: auto; 
+    padding: 10px 0 10px;
+}
+
+#button{
+    background-color: #ffcc00;
+    padding: 8px;
+}
+div {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    margin: 10px 0;
+}
+
+p,
+input[type="text"],
+input[type="number"],
+textarea,
+ form {
+    width: 350px;
+    padding: 8px;
+}
+
+h1:hover {
+    cursor: pointer;
+    animation: mymove 2s infinite;
+  }
+
+p,
+form {
+    margin: auto;
+}
+
+input[type="submit"] {
+    display: block;
+    background-color: #1e90ff;
+    color: white;
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+footer p {
+    padding: 0% 20%;
+}
